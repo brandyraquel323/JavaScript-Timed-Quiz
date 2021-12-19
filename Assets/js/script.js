@@ -1,6 +1,5 @@
-const start_btn = document.querySelector(".start_btn button");
-
-
-start_btn.onclick = ()=>{
+var generateBtn = document.querySelector("#start");
+generateBtn.onclick = function() {
+  window.alert("Welcome to the JavaScript Code Quiz")
 
 }
